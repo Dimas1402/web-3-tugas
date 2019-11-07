@@ -1,0 +1,438 @@
+#col-1{
+/*	border: 1px solid black;*/
+	background: white;
+	height: 450px;
+}
+#col-2{
+	/*border: 1px solid black;*/
+	background: white;
+	height: 400px;
+
+}
+#container{
+	position: relative;
+	top:40px;
+}
+
+#form-control-id{
+	height: 30px;
+
+}
+
+
+#form-control-ids{
+
+	height: 30px;
+	width: 70%;
+
+}
+
+#row-1 a{
+	font-size: 10px;
+}
+
+#btn-title{
+	position: relative;
+	margin-top: -12px;
+	height:28px;
+	width: 200%;
+	left:1%;
+
+	font-size: 10px;
+
+}
+#btn-title-rom{
+	position: relative;
+	margin-top: -12px;
+	height:28px;
+	width: 110%;
+	font-size: 8px;
+	left:-60%;
+	background: white;
+
+}
+#btn-title-rom:hover{
+	color:blue;
+	background: #007BFF;
+}
+
+.date-container{
+	position: relative;
+	bottom:12px;
+}
+
+.date{
+	top:13px;
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid #CED4DA;
+	font-size: 15px;
+}
+
+#time{
+	position: relative;
+	left:40%;
+	bottom:50px;
+}
+.time{
+	border-radius: 5px;
+	border: 1px solid #CED4DA;
+
+}
+
+#durations{
+	position: relative;
+	bottom:100px;
+	left:70%;
+}
+#check{
+	color:#026E00;
+}
+.alert{
+	position: relative;
+	font-size: 10px;
+	height: 5px;
+	right:10px;
+	bottom:100px;
+}
+
+#location{
+	position: relative;
+	top:-80px;
+	width:119%;
+}
+#location a{
+	position: relative;
+	bottom:20px;
+	left:6%;
+}
+.location-box{
+	position: relative;
+	left:-7%;
+}
+
+#location input{
+	position: relative;
+	width:10%;
+
+}
+
+#text-add{
+	position: relative;
+	top: 80px;
+	right:85%;
+	font-size: 10px;
+}
+
+#Notify{
+	position: relative;
+	bottom:20px;
+}
+
+
+/*----->*/
+
+.box-drop{
+	width:500px;
+	height: 100px;
+	border: 1px dashed #007BFF;
+	position: relative;
+	top:170px;
+}
+
+.box-drop p{
+	font-size: 10px ;
+	color: #007BFF;
+	position: relative;
+	left:35%;
+	top: 40px;
+}
+
+#drop-file{
+	font-size: 10px;
+	position: relative;
+	top:80px;
+}
+
+#pict-colom{
+	position: relative;
+	top:25px;
+	right: 27%;
+}
+
+#pict-colom i{
+	position: relative;
+	left:30px;
+}
+
+.box-far{
+	position: relative;
+	left:25%;
+	bottom: 25px;
+}
+
+#btn-far{
+	width:50px;
+	height: 30px;
+	position: relative;
+	top:25px;
+	left: -20%;
+
+}
+#far{
+	position: relative;
+	left:1px;
+	bottom: 4px;
+}
+
+#a{
+	position: relative;
+	bottom:5px;
+	font-size: 20px; 
+}
+
+
+#send{
+	position: relative;
+	bottom:6px;
+}
+#btn-title-send{
+	position: relative;
+	top: -30px;
+	left:83%;
+}
+
+#card{
+	height: 30px;
+	width: -20px;
+	margin-bottom: 30px;
+	
+}
+
+#body-hip{
+	position: relative;
+	top: 20px;
+}
+#btn-cancel{
+	position: relative;
+	top: -30px;
+	width: 10%;
+	font-size: 12px;
+	left:75%;
+	background: rgb(224, 222, 222);
+	border:none;
+}
+/*#checkbox-1{
+	position: relative;
+	top:50px;
+}
+.form-check-input{
+	position: relative;
+	bottom:20px;
+}*/
+.form-check{
+position: relative;
+bottom: 16px;	
+}
+
+#check-1{
+	position: relative;
+	left:40%;
+	bottom: 62px;
+
+}
+#check-2{
+	position: relative;
+	
+	bottom: 38px;
+
+}
+
+#check-1 a{
+	position: relative;
+	bottom: 4px;
+}
+#check-2 a{
+	position: relative;
+	bottom:4px;
+}
+
+#btn-create-event{
+	width: 80%;
+	height: 10%;
+	position: relative;
+	left:10%;
+	top: 60px;
+}
+
+/* /////////loading//////// */
+
+.main {
+
+	position: absolute;
+	position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-top:0	;
+	z-index: 999;
+}
+
+.tile {
+	/* swap width, height values and uncomment width in keyframes at 50% for bubble up like animation */
+	width: 10px; 
+	height: 1px;
+	background: grey;
+	border-radius: 50px;
+	box-shadow: 0px 0px 10px white;
+	margin: 2px;
+	animation: load 1s infinite;
+}
+
+.tile1 {
+	animation-delay: 0.1s;
+}
+.tile2 {
+	animation-delay: 0.2s;
+}
+.tile3 {
+	animation-delay: 0.3s;
+}
+.tile4 {
+	animation-delay: 0.4s;
+}
+.tile5 {
+	animation-delay: 0.5s;
+}
+
+@keyframes load {
+	0% {
+		background: #5CADD6;
+	}
+	50% {
+		height: 60px;
+/* 		width:10px; */
+	}
+	100% {
+		background: rgb(207, 201, 201);
+	}
+}
+  @media screen and (max-width: 768px){
+
+  	.col-8{
+  		
+  	}
+
+  	#container h3{
+  		position: relative;
+  		left:17%;
+  	}
+  	#col-1{
+  		position: relative;
+  		left:20%;
+  		height: 700px;
+  	}
+
+  	#col-2{
+  		position: relative;
+  		left:17%;
+  		margin:10px;
+  		height: 600px;
+
+  	}
+
+  	#time{
+  		position: relative;
+  		top: 5px;
+  		left:0%;
+
+  	}
+  	#durations{
+  		position: relative;
+  		top:10px;
+  		left:0%;
+  	}
+
+  	.alert{
+  		position: relative;
+  		top:10px;
+  	}
+
+  	#location{
+  		position: relative;
+  		top: 50px;
+  		right:5%;
+  		width: 70%;
+  		height: 20px;
+  	}
+
+  	#form-control-ids{
+  		position: relative;
+  		right:10%;
+  	}
+
+  	#location a{
+  		position: relative;
+  		left:27px;
+  	}
+
+  	#btn-title-rom{
+  		position: relative;
+  		left:110%;
+  		top:-17px;
+  	}
+
+  	#btn-title-send{
+  		position: relative;
+  		top:2px;
+  		left:6%;
+	  }
+	 
+#card{
+	height: 30px;
+	width: 98%;
+	position: relative;
+	top:10px;
+}
+#Notify{
+	position: relative;
+	top:5px;
+}
+
+#check-1{
+	position: relative;
+	left:60%;
+}
+
+#set{
+	position: relative;
+	top:7px;
+}
+
+#select{
+	position: relative;
+	top:7px;
+  }
+}
+
+
+
+
+@media screen and (max-width:360px){
+	#btn-meeting{
+		position: relative;
+	
+	}
+
+	#btn-cancel{
+		position: relative;
+		width: 35%;
+		top:-38px;
+		background: rgb(224, 222, 222);
+		border:none;
+	}
+}

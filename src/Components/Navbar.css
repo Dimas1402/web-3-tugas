@@ -1,0 +1,207 @@
+.navbar{
+    display: block;
+    width: 6%;
+    float: left;
+    z-index: 999999;
+    height: 100vh;
+    position: fixed;
+    /* position: absolute; */
+    bottom: 0px;
+    border:1px solid rgb(236, 240, 245);
+    background: white;
+    /* box-shadow: 1px 1px #ccc; */
+}
+
+.navbar-nav{
+    display: block;
+}
+
+.icons1{
+    width:53px;
+    height: 110px;
+    position: relative;
+    bottom:15px;
+    right:10%;
+  
+}
+  
+.icons2{
+    width:50px;
+    height: 80px;
+    position: relative;
+    bottom:30px;
+    right:5%;
+}
+.icons2:hover{
+    /* background-color: aliceblue; */
+  width: 55px;
+
+}
+.icons3{
+    width:50px;
+    height: 90px;
+    position: relative;
+    bottom:70px;
+    right:5%;
+}
+.icons3:hover{
+    /* background-color: aliceblue; */
+  width: 55px;
+
+}
+
+.icons4{
+    width:60px;
+    height: 90px;
+    position: relative;
+    bottom:95px;
+    right:5%;
+} 
+.icons4:hover{
+    /* background-color: aliceblue; */
+  width: 55px;
+
+} 
+.icons5{
+    width:50px;
+    height: 70px;
+    position: relative;
+    bottom:115px;
+    right:5%;
+} 
+.icons5:hover{
+    /* background-color: aliceblue; */
+  width: 55px;
+
+} 
+.icons6{
+    width:50px;
+    height: 70px;
+    position: relative;
+    bottom:130px;
+    right:5%;
+} 
+.icons6:hover{
+    background-color: aliceblue;
+  width: 55px;
+
+} 
+
+.icons7{
+    width:50px;
+    height: 80px;
+    position: relative;
+    bottom:145px;
+    right:5%;
+} 
+.icons7:hover{
+    background-color: aliceblue;
+  width: 55px;
+
+}
+
+.active{
+    border-left: 3px solid #4DA2FF;
+}
+
+#active0{
+    position: relative;
+    bottom: 36px;
+    height: 40px;
+}
+
+#active{
+    position: relative;
+    bottom: 36px;
+    height: 40px;
+}
+
+#active1{
+    position: relative;
+    bottom: 65px;
+    height: 40px;
+}
+#active2{
+    position: relative;
+    bottom: 90px;
+    height: 40px;
+}
+
+#active3{
+    position: relative;
+    bottom: 115px;
+    height: 40px;
+}
+
+#active4{
+    position: relative;
+    bottom: 125px;
+    height: 40px;
+}
+
+#active5{
+    position: relative;
+    bottom: 145px;
+    height: 40px;
+}
+  
+  @media screen and (max-width: 700px) {
+    .navbar{
+        width: 10%;
+        position: fixed;
+        z-index: 5;
+        left: 1%;
+        border:none;
+        background: white;
+        top:12px;
+        height:100%;
+        z-index: 999;
+
+    }  
+
+    .navbar-nav{
+      position: relative;
+      right:200%;
+    }  
+
+  .navbar-toggler{
+      margin-right: 30px;
+  }
+  .toogle{
+      position: relative;
+      bottom: -50px;
+  }
+    
+    .navbar-nav{
+      position: relative;
+
+    }
+    /* .navbar{
+          margin:0%;
+          margin-top:50%;
+          
+          
+      }
+      .navbar-toggler{
+          position: relative;
+          bottom:175px;
+          left: 10px;
+      }
+
+      .collapse{
+          position: relative;
+          bottom:200px;
+          left:12px;
+      } */
+
+    
+  }
+  
+  @media screen and (max-width: 400px) {
+    
+  }
+
+
+
+
+      

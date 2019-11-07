@@ -1,0 +1,58 @@
+.box{
+    width: 250px;
+    height: 100vh; 
+   /* border: 1px solid rgb(236, 240, 245);*/
+    position: fixed;
+    right: 0;
+    background-color: white;
+    top: 70px;
+}
+
+.calendar{
+    color: rgb(207, 219, 233);
+    background-color: rgb(207, 219, 233);
+}
+
+.calendars{
+    background: teal;
+}
+
+.react-calendar button{
+    color: gray;
+}
+
+.react-calendar__navigation button {
+    color: gray !important;
+}
+
+.react-calendar{
+    border: none !important;
+    height: 20px;
+}
+
+
+
+
+/*.react-calendar{
+    border: none !important;
+        width: 365px !important;
+        color: grey !important;
+}*/
+
+@media screen and (max-width: 800px){
+    .box{
+        /* border: 1px solid black; */
+        position: absolute;
+        width:360px;
+        top: 1243px;
+        left:16%;
+
+    }
+    /* .box{
+        position: relative;
+        width: 330px;
+        height: auto;
+        left: 5%;
+        border: 1px solid black;
+    } */
+}

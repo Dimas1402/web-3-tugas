@@ -1,0 +1,84 @@
+#dropzone{
+    height:20px;
+    font-size: 10px;
+    position: relative;
+    bottom:140px;
+    left:24%;
+
+}
+.box-drop{
+    position: relative;
+    top:-10px;
+    left:8%;
+}
+.drop-file{
+    position:relative;
+    top:45px;
+    left: 35%;
+    color: rgb(155, 185, 218);
+}
+
+#drop-file{
+    position: relative;
+    top:-90px;
+    left:5%;
+}
+#icon-drop{
+    position: relative;
+    right:1%;
+    color: rgb(155, 185, 218);
+}
+
+.ul-files{
+    position: relative;
+    right: 25%;
+    top: 60px;
+    list-style: none;
+}
+
+#btn-add-files{
+    width: 15%;
+    height: 25px;
+    position: relative;
+    left:71%;
+}
+
+#btn-add-files a{
+    position: relative;
+    bottom:9px;
+
+}
+.btn-add-file{
+    position: relative;
+    top: 70px;
+}
+
+  @media screen and (max-width: 768px){
+    .box-drop{
+        width: 90%;
+        position: relative;
+        top:150px;
+    }
+    #btn-add-files{
+        width: 50%;
+        position: relative;
+        top:140px;
+        left:40%;
+
+    }
+    .box-drop p{
+        position: relative;
+        left:3%;
+    }
+
+    .ul-files{
+        position: relative;
+        top:190px;
+        left:-50%;
+    }
+    #drop-file{
+        position: relative;
+        top:150px;
+        left:1%;
+    }
+  }

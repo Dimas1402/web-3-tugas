@@ -1,0 +1,55 @@
+#title-profile{
+    color:#4DA2FF;
+    text-align: center;
+}
+
+#img-profile{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+   
+}
+
+
+.title-profiles{
+    margin-top:80px;
+}
+
+#h5{
+    background: #56A7F7;
+}
+
+.text-data{
+    position: relative;
+    left:40%;
+    bottom: 40px;
+    color:rgb(74, 96, 99);
+}
+.top-data{
+    position: relative;
+    bottom: 20px;
+}
+.top-data2{
+    position: relative;
+    bottom: 35px;
+}
+
+.text-user{
+    color: rgb(85, 76, 76);
+}
+
+#garis{
+    size:10px;
+  position: relative;
+  bottom:40px;
+
+    height:10px;
+}
+
+#garis2{
+    size:10px;
+  position: relative;
+  bottom:60px;
+
+    height:10px;
+}
